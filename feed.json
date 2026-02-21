@@ -1,0 +1,28 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "The Kamix kernel",
+    "description": "",
+    "home_page_url": "https://kamix.sdisk.us",
+    "feed_url": "https://kamix.sdisk.us/feed.json",
+    "user_comment": "",
+    "icon": "https://kamix.sdisk.us/media/website/Kamix-assets.svg",
+    "author": {
+        "name": "Kane (@kx1xixit)"
+    },
+    "items": [
+        {
+            "id": "https://kamix.sdisk.us/posts/kamix-v100-rc1-is-out/",
+            "url": "https://kamix.sdisk.us/posts/kamix-v100-rc1-is-out/",
+            "title": "Kamix v1.0.0-rc1 is out!",
+            "summary": "Download Kamix v1.0.0-rc1 Bumping Kamix to `1.0.0-rc2`, this is the Volumes (`vfss`) update. It adds `vfs rename`, `vfs rm`, and `vfs copy`. Next update might add an environment variable system for things like the system version and configuration directory.",
+            "content_html": "<div><a href=https://files.catbox.moe/iz2dh5.pmp>Download Kamix v1.0.0-rc1</a></div>\n\n  <p>\n    Bumping Kamix to `1.0.0-rc2`, this is the Volumes (`vfss`) update. It adds `vfs rename`, `vfs rm`, and `vfs copy`. Next update might add an environment variable system for things like the system version and configuration directory.\n  </p>\n\n  <p>\n    \n  </p>",
+            "author": {
+                "name": "Kane (@kx1xixit)"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-02-19T21:01:29-06:00",
+            "date_modified": "2026-02-19T21:15:26-06:00"
+        }
+    ]
+}

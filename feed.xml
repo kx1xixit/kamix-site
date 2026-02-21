@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>The Kamix kernel</title>
+    <link href="https://kamix.sdisk.us/feed.xml" rel="self" />
+    <link href="https://kamix.sdisk.us" />
+    <updated>2026-02-19T21:15:26-06:00</updated>
+    <author>
+        <name>Kane (@kx1xixit)</name>
+    </author>
+    <id>https://kamix.sdisk.us</id>
+
+    <entry>
+        <title>Kamix v1.0.0-rc1 is out!</title>
+        <author>
+            <name>Kane (@kx1xixit)</name>
+        </author>
+        <link href="https://kamix.sdisk.us/posts/kamix-v100-rc1-is-out/"/>
+        <id>https://kamix.sdisk.us/posts/kamix-v100-rc1-is-out/</id>
+
+        <updated>2026-02-19T21:01:29-06:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Download Kamix v1.0.0-rc1 Bumping Kamix to `1.0.0-rc2`, this is the Volumes (`vfss`) update. It adds `vfs rename`, `vfs rm`, and `vfs copy`. Next update might add an environment variable system for things like the system version and configuration directory.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div><a href=https://files.catbox.moe/iz2dh5.pmp>Download Kamix v1.0.0-rc1</a></div>
+
+  <p>
+    Bumping Kamix to `1.0.0-rc2`, this is the Volumes (`vfss`) update. It adds `vfs rename`, `vfs rm`, and `vfs copy`. Next update might add an environment variable system for things like the system version and configuration directory.
+  </p>
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
+</feed>
