@@ -13,16 +13,16 @@
         {
             "id": "https://kamix.sdisk.us/posts/kamix-v100-rc1-is-out/",
             "url": "https://kamix.sdisk.us/posts/kamix-v100-rc1-is-out/",
-            "title": "Kamix v1.0.0-rc1 is out!",
-            "summary": "Download Kamix v1.0.0-rc1 Bumping Kamix to `1.0.0-rc2`, this is the Volumes (`vfss`) update. It adds `vfs rename`, `vfs rm`, and `vfs copy`. Next update might add an environment variable system for things like the system version and configuration directory.",
-            "content_html": "<div><a href=https://files.catbox.moe/iz2dh5.pmp>Download Kamix v1.0.0-rc1</a></div>\n\n  <p>\n    Bumping Kamix to `1.0.0-rc2`, this is the Volumes (`vfss`) update. It adds `vfs rename`, `vfs rm`, and `vfs copy`. Next update might add an environment variable system for things like the system version and configuration directory.\n  </p>\n\n  <p>\n    \n  </p>",
+            "title": "1.0.0 (early-access) release notes",
+            "summary": "As this is the first release note page, there are no changes to compare against, so all notes are empty for now. When the next version releases, you'll see what changed and how to adapt your additional Kamix packages to it (if you have any).",
+            "content_html": "\n  <p>\n    As this is the first release note page, there are no changes to compare against, so all notes are empty for now. When the next version releases, you'll see what changed and how to adapt your additional Kamix packages to it <i>(if you have any)</i>.\n  </p>\n\n    <h2 id=\"additions\">\n      Additions\n    </h2>\n\n  <ul>\n    <li>No additions to log.</li>\n  </ul>\n\n    <h2 id=\"changes\">\n      Changes\n    </h2>\n\n  <ul>\n    <li>No changes to log.</li>\n  </ul>\n\n    <h2 id=\"removals\">\n      Removals\n    </h2>\n\n  <ul>\n    <li>No removals to log.</li>\n  </ul>\n\n  <p>\n    <i>To download Kamix or try the latest version out now, click the hamburger menu and select their respective buttons.</i>\n  </p>",
             "author": {
                 "name": "Kane (@kx1xixit)"
             },
             "tags": [
             ],
             "date_published": "2026-02-19T21:01:29-06:00",
-            "date_modified": "2026-02-19T21:15:26-06:00"
+            "date_modified": "2026-02-20T23:02:00-06:00"
         }
     ]
 }
