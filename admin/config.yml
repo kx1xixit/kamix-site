@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: kx1xixit/kamix-site
+  name: git-gateway
   branch: main # Branch to update (master or main)
 
 media_folder: "assets/images" # Where images are saved in the repo
