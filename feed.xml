@@ -1,61 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <title>The Kamix kernel</title>
+    <title>Kamix Blog</title>
     <link href="https://kamix.sdisk.us/feed.xml" rel="self" />
     <link href="https://kamix.sdisk.us" />
-    <updated>2026-02-20T23:02:00-06:00</updated>
+    <updated>2026-02-21T13:31:26-08:00</updated>
     <author>
-        <name>Kane (@kx1xixit)</name>
+        <name>Kane</name>
     </author>
     <id>https://kamix.sdisk.us</id>
 
     <entry>
-        <title>1.0.0 (early-access) release notes</title>
+        <title>Kamix, version 1.0.0 (early access)</title>
         <author>
-            <name>Kane (@kx1xixit)</name>
+            <name>Kane</name>
         </author>
-        <link href="https://kamix.sdisk.us/posts/kamix-v100-rc1-is-out/"/>
-        <id>https://kamix.sdisk.us/posts/kamix-v100-rc1-is-out/</id>
+        <link href="https://kamix.sdisk.us/kamix-version-100-early-access/"/>
+        <id>https://kamix.sdisk.us/kamix-version-100-early-access/</id>
+            <category term="release"/>
 
-        <updated>2026-02-19T21:01:29-06:00</updated>
+        <updated>2026-02-21T13:15:30-08:00</updated>
             <summary type="html">
                 <![CDATA[
-                    As this is the first release note page, there are no changes to compare against, so all notes are empty for now. When the next version releases, you'll see what changed and how to adapt your additional Kamix packages to it (if you have any).
+                    Kamix, version 1.0.0 is officially out! However, it's an early-access build, so not everything is here and bugs may occur. Since there are no changes&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 
   <p>
-    As this is the first release note page, there are no changes to compare against, so all notes are empty for now. When the next version releases, you'll see what changed and how to adapt your additional Kamix packages to it <i>(if you have any)</i>.
+    Kamix, version 1.0.0 is officially out! However, it's an early-access build, so not everything is here and bugs may occur.
   </p>
 
-    <h2 id="additions">
-      Additions
-    </h2>
-
-  <ul>
-    <li>No additions to log.</li>
-  </ul>
-
-    <h2 id="changes">
-      Changes
-    </h2>
-
-  <ul>
-    <li>No changes to log.</li>
-  </ul>
-
-    <h2 id="removals">
-      Removals
-    </h2>
-
-  <ul>
-    <li>No removals to log.</li>
-  </ul>
+  <p>
+    Since there are no changes to log (this is Kamix's first post, after all), the usual "Added", "Removed", and "Changed" headers are not there.
+  </p>
 
   <p>
-    <i>To download Kamix or try the latest version out now, click the hamburger menu and select their respective buttons.</i>
+    If you want to download Kamix's source code (.pmp) or try Kamix the intended way (https://use.kamix.sdisk.us), click on their respective links.
   </p>
             ]]>
         </content>

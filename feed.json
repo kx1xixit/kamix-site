@@ -1,28 +1,28 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "The Kamix kernel",
+    "title": "Kamix Blog",
     "description": "",
     "home_page_url": "https://kamix.sdisk.us",
     "feed_url": "https://kamix.sdisk.us/feed.json",
     "user_comment": "",
-    "icon": "https://kamix.sdisk.us/media/website/Kamix-assets.svg",
     "author": {
-        "name": "Kane (@kx1xixit)"
+        "name": "Kane"
     },
     "items": [
         {
-            "id": "https://kamix.sdisk.us/posts/kamix-v100-rc1-is-out/",
-            "url": "https://kamix.sdisk.us/posts/kamix-v100-rc1-is-out/",
-            "title": "1.0.0 (early-access) release notes",
-            "summary": "As this is the first release note page, there are no changes to compare against, so all notes are empty for now. When the next version releases, you'll see what changed and how to adapt your additional Kamix packages to it (if you have any).",
-            "content_html": "\n  <p>\n    As this is the first release note page, there are no changes to compare against, so all notes are empty for now. When the next version releases, you'll see what changed and how to adapt your additional Kamix packages to it <i>(if you have any)</i>.\n  </p>\n\n    <h2 id=\"additions\">\n      Additions\n    </h2>\n\n  <ul>\n    <li>No additions to log.</li>\n  </ul>\n\n    <h2 id=\"changes\">\n      Changes\n    </h2>\n\n  <ul>\n    <li>No changes to log.</li>\n  </ul>\n\n    <h2 id=\"removals\">\n      Removals\n    </h2>\n\n  <ul>\n    <li>No removals to log.</li>\n  </ul>\n\n  <p>\n    <i>To download Kamix or try the latest version out now, click the hamburger menu and select their respective buttons.</i>\n  </p>",
+            "id": "https://kamix.sdisk.us/kamix-version-100-early-access/",
+            "url": "https://kamix.sdisk.us/kamix-version-100-early-access/",
+            "title": "Kamix, version 1.0.0 (early access)",
+            "summary": "Kamix, version 1.0.0 is officially out! However, it's an early-access build, so not everything is here and bugs may occur. Since there are no changes&hellip;",
+            "content_html": "\n  <p>\n    Kamix, version 1.0.0 is officially out! However, it's an early-access build, so not everything is here and bugs may occur.\n  </p>\n\n  <p>\n    Since there are no changes to log (this is Kamix's first post, after all), the usual \"Added\", \"Removed\", and \"Changed\" headers are not there.\n  </p>\n\n  <p>\n    If you want to download Kamix's source code (.pmp) or try Kamix the intended way (https://use.kamix.sdisk.us), click on their respective links.\n  </p>",
             "author": {
-                "name": "Kane (@kx1xixit)"
+                "name": "Kane"
             },
             "tags": [
+                   "release"
             ],
-            "date_published": "2026-02-19T21:01:29-06:00",
-            "date_modified": "2026-02-20T23:02:00-06:00"
+            "date_published": "2026-02-21T13:15:30-08:00",
+            "date_modified": "2026-02-21T13:31:26-08:00"
         }
     ]
 }
