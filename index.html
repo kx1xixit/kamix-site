@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kamix - Release Logs</title>
+  <style>
+    body { font-family: sans-serif; max-width: 800px; margin: 40px auto; padding: 20px; line-height: 1.6; }
+    h1 { color: #333; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+    .post-list { list-style: none; padding: 0; }
+    .post-item { margin-bottom: 20px; }
+    .post-date { color: #666; font-size: 0.9em; display: block; }
+    a { color: #0066cc; text-decoration: none; font-size: 1.2em; font-weight: bold; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+  <h1>Kamix Microkernel Releases</h1>
+  
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li class="post-item">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+        <p>{{ post.summary }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+
+</body>
+</html>
