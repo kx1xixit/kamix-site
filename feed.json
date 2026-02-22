@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://kamix.sdisk.us/how-we-brought-kxai-to-kamix/",
+            "url": "https://kamix.sdisk.us/how-we-brought-kxai-to-kamix/",
+            "title": "How we brought kxAI to Kamix",
+            "summary": "<p>We brought kxAI, a local LLM service, to Kamix (1.0.0 early access) as a proof of concept of Kamix services and its modularity. Now, we'll show you how.</p>\n",
+            "content_html": "<p>We brought kxAI, a local LLM service, to Kamix (1.0.0 early access) as a proof of concept of Kamix services and its modularity. Now, we'll show you how.</p>\n\n<h2>1. We set our goals</h2>\n<p>Firstly, we wanted to prove to the Kamix supporters that our modularity and service architecture actually worked. So, we started setting our goals.</p>\n<p class=\"msg msg--info\">Fun fact: We previously planned to add a Rok integration (Rok is another self-hosted LLM service) prior to creation of our own service, but because their software is a work-in-progress, it wasn't used and kxAI was created.</p>\n<h2>2. We set up the server</h2>\n<p>Initially, we went with a Python + Ollama setup, but then used LM Studio as our backend as it was simpler and natively supported API keys. Then, we set up authentication and prompted our first LLM, which is Qwen 2.5 <em>(which is also the default and only model you'd be using if you ran kxAI on Kamix)</em>.</p>\n<p>We shared a few API keys with our contributors and let them get to work, testing our service to ensure it worked before even starting work on the kxAI Integration service for Kamix.</p>\n<h2>3. We created a draft</h2>\n<p>Before writing the actual service, we checked if it was even possible. While it did add another extension (PenguinMod's HTTP extension) to an already large list, it was worth it to bring kxAI to Kamix.</p>\n<p>We wrote a simple script that prompts kxAI, and when it worked, we went to work on coding the actual service.</p>\n<h2>4. We went to work</h2>\n<p>We imported Kamix, copied \"bases\" <em>(which is the \"base\" service, serving as a template for all Kamix services)</em>, and made three core commands:</p>\n<p>- kxai setup : set your kxAI API key</p>\n<p>- kxai ask : ask kxAI something</p>\n<p>- kxai help : Pretty much the list you just saw!</p>\n<h1>How you can get your own API key</h1>\n<p>Because we don't plan to create an automated script to create an API key, you'll need to message @kx1xixit on Discord, and wait for them to generate you an API key. <em>Please note that MCP is disabled and @kx1xixit can not show you your API key after it is generated.</em></p>",
+            "author": {
+                "name": "Kane"
+            },
+            "tags": [
+                   "blog"
+            ],
+            "date_published": "2026-02-21T21:41:57-08:00",
+            "date_modified": "2026-02-21T21:41:57-08:00"
+        },
+        {
             "id": "https://kamix.sdisk.us/kamix-version-100-early-access/",
             "url": "https://kamix.sdisk.us/kamix-version-100-early-access/",
             "title": "Kamix, version 1.0.0 (early access)",
