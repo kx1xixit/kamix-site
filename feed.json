@@ -10,34 +10,64 @@
     },
     "items": [
         {
-            "id": "https://kamix.sdisk.us/how-we-brought-kxai-to-kamix/",
-            "url": "https://kamix.sdisk.us/how-we-brought-kxai-to-kamix/",
-            "title": "How we brought kxAI to Kamix",
-            "summary": "<p>We brought kxAI, a local LLM service, to Kamix (1.0.0 early access) as a proof of concept of Kamix services and its modularity. Now, we'll show you how.</p>\n",
-            "content_html": "<p>We brought kxAI, a local LLM service, to Kamix (1.0.0 early access) as a proof of concept of Kamix services and its modularity. Now, we'll show you how.</p>\n\n<h2>1. We set our goals</h2>\n<p>Firstly, we wanted to prove to the Kamix supporters that our modularity and service architecture actually worked. So, we started setting our goals.</p>\n<p class=\"msg msg--info\">Fun fact: We previously planned to add a Rok integration (Rok is another self-hosted LLM service) prior to creation of our own service, but because their software is a work-in-progress, it wasn't used and kxAI was created.</p>\n<h2>2. We set up the server</h2>\n<p>Initially, we went with a Python + Ollama setup, but then used LM Studio as our backend as it was simpler and natively supported API keys. Then, we set up authentication and prompted our first LLM, which is Qwen 2.5 <em>(which is also the default and only model you'd be using if you ran kxAI on Kamix)</em>.</p>\n<p>We shared a few API keys with our contributors and let them get to work, testing our service to ensure it worked before even starting work on the kxAI Integration service for Kamix.</p>\n<h2>3. We created a draft</h2>\n<p>Before writing the actual service, we checked if it was even possible. While it did add another extension (PenguinMod's HTTP extension) to an already large list, it was worth it to bring kxAI to Kamix.</p>\n<p>We wrote a simple script that prompts kxAI, and when it worked, we went to work on coding the actual service.</p>\n<h2>4. We went to work</h2>\n<p>We imported Kamix, copied \"bases\" <em>(which is the \"base\" service, serving as a template for all Kamix services)</em>, and made three core commands:</p>\n<p>- kxai setup : set your kxAI API key</p>\n<p>- kxai ask : ask kxAI something</p>\n<p>- kxai help : Pretty much the list you just saw!</p>\n<h1>How you can get your own API key</h1>\n<p>Because we don't plan to create an automated script to create an API key, you'll need to message @kx1xixit on Discord, and wait for them to generate you an API key. <em>Please note that MCP is disabled and @kx1xixit can not show you your API key after it is generated.</em></p>",
+            "id": "https://kamix.sdisk.us/version-112-early-access/",
+            "url": "https://kamix.sdisk.us/version-112-early-access/",
+            "title": "Version 1.1.2-early-access",
+            "summary": "<p>This update introduces a dedicated <code>checks</code> service and a pre-boot environment for VFS clearing, which now triggers a system reboot. Additionally, it streamlines the system by removing demo sprites and phasing out <code>vfs wipe</code> and configuration commands in favor of standard VFS operations.</p>",
+            "content_html": "<p>This update introduces a dedicated <code>checks</code> service and a pre-boot environment for VFS clearing, which now triggers a system reboot. Additionally, it streamlines the system by removing demo sprites and phasing out <code>vfs wipe</code> and configuration commands in favor of standard VFS operations.</p>\n\n<h3 id=\"adds\">Adds:</h3>\n<ul>\n<li><code>checks</code>, the service &amp; VFS checking service.</li>\n<li>A new pre-boot environment specifically for VFS clearing.</li>\n</ul>\n<h3 id=\"changes\">Changes:</h3>\n<ul>\n<li>Removed the built-in “What can Kamix do?” demo sprites if they existed.</li>\n<li><code>vfs clear</code> now reboots Kamix to a pre-boot environment.</li>\n</ul>\n<h3 id=\"removes\">Removes:</h3>\n<ul>\n<li><code>vfs wipe</code> as it is now unsafe.</li>\n<li><code>kx set-config</code> as it was superseded by <code>vfs write</code>.</li>\n<li><code>kx list-config</code> as it was superseded by <code>vfs list</code>.</li>\n</ul>\n",
             "author": {
                 "name": "Kane"
             },
             "tags": [
-                   "blog"
+                   "changelog"
             ],
-            "date_published": "2026-02-21T21:41:57-08:00",
-            "date_modified": "2026-02-21T21:41:57-08:00"
+            "date_published": "2026-03-01T10:24:16-06:00",
+            "date_modified": "2026-03-01T10:28:37-06:00"
         },
         {
-            "id": "https://kamix.sdisk.us/kamix-version-100-early-access/",
-            "url": "https://kamix.sdisk.us/kamix-version-100-early-access/",
-            "title": "Kamix, version 1.0.0 (early access)",
-            "summary": "Kamix, version 1.0.0 is officially out! However, it's an early-access build, so not everything is here and bugs may occur. Since there are no changes&hellip;",
-            "content_html": "\n  <p>\n    Kamix, version 1.0.0 is officially out! However, it's an early-access build, so not everything is here and bugs may occur.\n  </p>\n\n  <p>\n    Since there are no changes to log (this is Kamix's first post, after all), the usual \"Added\", \"Removed\", and \"Changed\" headers are not there.\n  </p>\n\n  <p>\n    If you want to download Kamix's source code (.pmp) or try Kamix the intended way (https://use.kamix.sdisk.us), click on their respective links.\n  </p>",
+            "id": "https://kamix.sdisk.us/version-111-early-access/",
+            "url": "https://kamix.sdisk.us/version-111-early-access/",
+            "title": "Version 1.1.1-early-access",
+            "summary": "<p>This update focuses exclusively on a stability fix that prevents the entire system from hanging during certain <code>vfss</code> actions.</p>",
+            "content_html": "<p>This update focuses exclusively on a stability fix that prevents the entire system from hanging during certain <code>vfss</code> actions.</p>\n\n<h3 id=\"adds\">Adds:</h3>\n<p><em>(Nothing.)</em></p><h3 id=\"changes\">Changes:</h3>\n<ul>\n<li>Fixed the bug where some <code>vfss</code> actions would hang the entire system.</li>\n</ul>\n<h3 id=\"removes\">Removes:</h3>\n<p><em>(Nothing.)</em></p>",
             "author": {
                 "name": "Kane"
             },
             "tags": [
-                   "release"
+                   "changelog"
             ],
-            "date_published": "2026-02-21T13:15:30-08:00",
-            "date_modified": "2026-02-21T13:31:26-08:00"
+            "date_published": "2026-03-01T10:23:42-06:00",
+            "date_modified": "2026-03-01T10:28:33-06:00"
+        },
+        {
+            "id": "https://kamix.sdisk.us/version-110-early-access/",
+            "url": "https://kamix.sdisk.us/version-110-early-access/",
+            "title": "Version 1.1.0-early-access",
+            "summary": "<p>This update introduces the <code>shellms</code> manipulation service, the <code>vfs rm</code> command, and a <code>/RAM/busy</code> file to manage command concurrency. It also renames <code>kamix</code> to <code>bootl</code>, separates its commands into the new <code>kamixcs</code> service, and fixes a directory traversal bug in <code>vfs list</code>.</p>",
+            "content_html": "<p>This update introduces the <code>shellms</code> manipulation service, the <code>vfs rm</code> command, and a <code>/RAM/busy</code> file to manage command concurrency. It also renames <code>kamix</code> to <code>bootl</code>, separates its commands into the new <code>kamixcs</code> service, and fixes a directory traversal bug in <code>vfs list</code>.</p>\n\n<h3 id=\"adds\">Adds:</h3>\n<ul>\n<li><code>shellms</code>,  the shell manipulation service.</li>\n<li>New file in RAM (<code>/RAM/busy</code>) that enables or disables new commands from running if a command is already in progress.</li>\n<li>Finalized <code>vfss</code> command: <code>vfs rm [path]</code>.</li>\n</ul>\n<h3 id=\"changes\">Changes:</h3>\n<ul>\n<li>Renamed <code>kamix</code> to <code>bootl</code>.</li>\n<li>Split Kamix commands into a separate service from <code>bootl</code>, named <code>kamixcs</code>.</li>\n<li>Fixed the bug where <code>vfs list [path]</code> would misinterpret files as directories if your working directory is not <code>/</code> (root).</li>\n</ul>\n<h3 id=\"removes\">Removes:</h3>\n<p><em>(Nothing.)</em></p>",
+            "author": {
+                "name": "Kane"
+            },
+            "tags": [
+                   "changelog"
+            ],
+            "date_published": "2026-03-01T10:23:18-06:00",
+            "date_modified": "2026-03-01T10:28:29-06:00"
+        },
+        {
+            "id": "https://kamix.sdisk.us/version-100-early-access/",
+            "url": "https://kamix.sdisk.us/version-100-early-access/",
+            "title": "Version 1.0.0-early-access",
+            "summary": "<p>Kamix, version 1.0.0 is officially out! However, it’s an early-access build, so not everything is here and bugs may occur.</p><p>Since there are no changes to log (this is Kamix’s first post, after all), the usual “Added”, “Removed”, and “Changed” headers are not there.</p>",
+            "content_html": "<p>Kamix, version 1.0.0 is officially out! However, it’s an early-access build, so not everything is here and bugs may occur.</p><p>Since there are no changes to log (this is Kamix’s first post, after all), the usual “Added”, “Removed”, and “Changed” headers are not there.</p>\n\n<p>If you want to download Kamix’s source code (.pmp) or try Kamix <a href=\"https://use.kamix.sdisk.us\">the intended way</a>, click on their respective links.</p>",
+            "author": {
+                "name": "Kane"
+            },
+            "tags": [
+                   "changelog"
+            ],
+            "date_published": "2026-03-01T10:18:49-06:00",
+            "date_modified": "2026-03-01T10:28:25-06:00"
         }
     ]
 }
